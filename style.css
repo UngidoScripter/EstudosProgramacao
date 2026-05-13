@@ -1,0 +1,44 @@
+/* Globais */
+body {
+  background-color: #242323;
+}
+/* Titulo cabeçalho */
+.modificarCor {
+  color: cornflowerblue;
+}
+
+#elementosHTML {
+  color: aliceblue;
+  text-align: center;
+  font-size: larger;
+}
+
+/* Images */
+.imagemDev {
+  width: 200px;
+  margin: auto;
+  display: block;
+}
+
+/* Inputs */
+#modificarInput {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: larger;
+}
+/* Botões */
+.btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding: 10px;
+  border: 3px;
+}
+
+.btn:hover {
+  background-color: aquamarine;
+}

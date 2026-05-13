@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula Nova</title>
+    <!-- Adição do estilo CSS no HTML -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Titulo da pagina WEB -->
+    <div id="elementosHTML">
+      <h1>Modificando elementos <span class="modificarCor">HTML</span></h1>
+    </div>
+    <!-- Botão encarregado de modificar a imagem principal para uma secundária -->
+    <div>
+      <button class="btn" onclick="changeImage()">Modificar Elemento</button>
+    </div>
+    <!-- Imagem primaria que será modificada pela secundaria através do id myImage -->
+    <div>
+      <img
+        class="imagemDev"
+        id="myImage"
+        src="./images/logo.jpeg"
+        alt="Imagem do desenvolvedor Reinaldo Santos"
+      />
+    </div>
+    <!-- Botão que ao ser clicado modificará o tipo de input -->
+    <div>
+      <button class="btn" onclick="chargeType()">
+        Modificar Tipo de Input
+      </button>
+      <!-- Input a ser modificado -->
+      <input
+        id="modificarInput"
+        type="text"
+        placeholder="Digite algo aqui..."
+      />
+    </div>
+    <!-- Adição do sistema script em linguagem Javascript -->
+    <script src="./script.js"></script>
+  </body>
+</html>
